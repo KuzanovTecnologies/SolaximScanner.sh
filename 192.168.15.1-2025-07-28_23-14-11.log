@@ -1,0 +1,21 @@
+======================================
+[*] Running scans on 192.168.15.1...
+[*] Running WhatWeb on 192.168.15.1...
+[1m[34mhttp://192.168.15.1[0m [200 OK] [1mCountry[0m[[0m[22mRESERVED[0m][[1m[31mZZ[0m], [1mFrame[0m, [1mIP[0m[[0m[22m192.168.15.1[0m], [1mJQuery[0m[[1m[32m3.6.3[0m], [1mScript[0m[[0m[22mtext/javascript[0m], [1mStrict-Transport-Security[0m[[0m[22mmax-age=31536000; includeSubDomains[0m], [1mTitle[0m[[1m[33mVivo[0m], [1mUncommonHeaders[0m[[0m[22mcontent-security-policy,x-content-type-options[0m], [1mX-Frame-Options[0m[[0m[22mSAMEORIGIN[0m], [1mX-XSS-Protection[0m[[0m[22m1; mode=block[0m]
+[*] Running DNSRecon on 192.168.15.1...
+[*] std: Performing General Enumeration against: 192.168.15.1...
+[-] Could not resolve domain: 192.168.15.1
+[*] Running standard Nmap on 192.168.15.1...
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-07-28 23:14 -03
+Nmap scan report for 192.168.15.1
+Host is up (0.0043s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+53/tcp   open     domain
+80/tcp   open     http
+443/tcp  filtered https
+3517/tcp open     802-11-iapp
+MAC Address: 84:0B:BB:F5:AA:20 (MitraStar Technology)
+
+Nmap done: 1 IP address (1 host up) scanned in 1.50 seconds
